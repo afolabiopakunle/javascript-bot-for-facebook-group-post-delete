@@ -1,18 +1,10 @@
-//select all delete buttons on screen
-let deleteButtons = document.querySelectorAll('.sx_f437f9');
+//ENSURE YOU ARE LOGGED IN AS AN THE GROUP'S MODERATOR OR ADMIN AND NAVIGATE TO THE PENDING POSTS PAGE
+//PRESS CTRL + SHIFT + I TO OPEN THE BROWSER CONSOLE AND PASTE THESE FOLLOWING CODES LINE BY LINE
 
-//click all the selected delete buttons
-deleteButtons.forEach(btn => btn.click())
+let deleteButtons = document.querySelectorAll('.sx_f437f9'); deleteButtons.forEach(btn => btn.click());
+//select all delete buttons on screen, bot clicks all the selected delete buttons
 
-//this line selects all delete modals that appears on screen
-let del = document.querySelectorAll('.layerConfirm');
+let del = document.querySelectorAll('.layerConfirm'); del.forEach(btn => btn.click());
+//this line selects all delete confirmation that appears on screen. Bot automatically clicks and delete on all the modal pop-ups on screen
 
-//this line automatically clicks delete on all the modal pop-ups on screen
-del.forEach(btn => btn.click())
-
-//refresh the page and run the lines 
-
-//the codes can be combined in two lines
-let deleteButtons = document.querySelectorAll('.sx_f437f9'); deleteButtons.forEach(btn => btn.click())
-
-let del = document.querySelectorAll('.layerConfirm'); del.forEach(btn => btn.click())
+//Refresh the page and run the 
